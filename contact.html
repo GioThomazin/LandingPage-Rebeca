@@ -1,49 +1,82 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
-  <title>Energen - Free Bootstrap 4 Template by Colorlib</title>
+  <title>Bec Lashes - Contato</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
+  <!-- Cabeçalho original mantido conforme solicitado -->
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&display=swap" rel="stylesheet">
-
   <link href="https://fonts.googleapis.com/css?family=Prata&display=swap" rel="stylesheet">
-
   <link rel="stylesheet" href="css/open-iconic-bootstrap.min.css">
   <link rel="stylesheet" href="css/animate.css">
-
   <link rel="stylesheet" href="css/owl.carousel.min.css">
   <link rel="stylesheet" href="css/owl.theme.default.min.css">
   <link rel="stylesheet" href="css/magnific-popup.css">
-
   <link rel="stylesheet" href="css/aos.css">
-
   <link rel="stylesheet" href="css/ionicons.min.css">
-
   <link rel="stylesheet" href="css/bootstrap-datepicker.css">
   <link rel="stylesheet" href="css/jquery.timepicker.css">
-
-
   <link rel="stylesheet" href="css/flaticon.css">
   <link rel="stylesheet" href="css/icomoon.css">
   <link rel="stylesheet" href="css/style.css">
+  
+  <!-- Estilos adicionais para a seção de contato -->
+  <style>
+    .contact-direct {
+      padding: 80px 0;
+      background-color: #999999;
+    }
+    .contact-card {
+      background: white;
+      border-radius: 10px;
+      padding: 40px;
+      margin: 20px 0;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+      text-align: center;
+    }
+    .contact-icon {
+      font-size: 3rem;
+      margin-bottom: 20px;
+    }
+    .btn-contact {
+      padding: 12px 30px;
+      border-radius: 30px;
+      font-weight: 600;
+      display: inline-block;
+      margin-top: 20px;
+      text-decoration: none;
+      color: white;
+    }
+    .btn-whatsapp {
+      background-color: #25D366;
+    }
+    .btn-agendamento {
+      background-color: #6f42c1;
+    }
+    #map {
+      height: 400px;
+      width: 100%;
+      margin-bottom: 50px;
+    }
+  </style>
 </head>
 
 <body>
+  <!-- NAVBAR ORIGINAL (MANTIDA COMO SOLICITADO) -->
   <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
     <div class="container">
-      <!-- Logo + Nome + Borboleta -->
       <a class="navbar-brand d-flex align-items-center" href="index.html">
         <span class="mr-2">Bec Lashes</span>
         <img src="images/borboleta.PNG" alt="Bec Lashes" style="height: 25px; width: auto;">
       </a>
 
-      <!-- Botão Mobile -->
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav"
         aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="oi oi-menu"></span> Menu
       </button>
+
       <div class="collapse navbar-collapse" id="ftco-nav">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item active"><a href="index.html" class="nav-link">Inicio</a></li>
@@ -56,77 +89,48 @@
       </div>
     </div>
   </nav>
-  <!-- END nav -->
 
-  <section class="hero-wrap hero-wrap-2" style="background-image: url('images/bg_2.jpg');"
-    data-stellar-background-ratio="0.5">
+  <!-- Hero Section -->
+  <section class="hero-wrap hero-wrap-2" style="background-image: url('images/bg_2.jpg');" data-stellar-background-ratio="0.5">
     <div class="overlay"></div>
     <div class="container">
       <div class="row no-gutters slider-text js-fullheight align-items-center justify-content-center">
         <div class="col-md-9 ftco-animate text-center">
-          <h1 class="mb-3 bread">Salão</h1>
-          <p class="breadcrumbs"><span class="mr-2"><a>Nosso</a></span> <span>Espaço</span></p>
+          <h1 class="mb-3 bread">Contato</h1>
+          <p class="breadcrumbs"><span class="mr-2"><a>Nossos</a></span> <span>Contatos</span></p>
         </div>
       </div>
     </div>
   </section>
 
-  <section class="ftco-section bg-light">
+  <!-- Seção de Contato Direto -->
+  <section class="contact-direct">
     <div class="container">
-      <div class="row d-flex">
-        <div class="col-md-4 d-flex ftco-animate">
-          <div class="blog-entry justify-content-end">
-            <a href="blog-single.html" class="block-20" style="background-image: url('images/image_4.jpg');">
+      <div class="row justify-content-center">
+        <div class="col-md-5">
+          <div class="contact-card">
+            <i class="ion-social-whatsapp contact-icon" style="color: #25D366;"></i>
+            <h2>WhatsApp</h2>
+            <p>Cursos e Dúvidas</p>
+            <a href="https://api.whatsapp.com/message/BEXEFH2XDKRCA1?autoload=1&app_absent=0" class="btn-contact btn-whatsapp">
+              Enviar Mensagem
             </a>
-            <div class="text p-4 float-right d-block">
-              <div class="d-flex align-items-center pt-2 mb-4">
-              </div>
-              <h3 class="heading mt-2"><a href="#">O Toque Acolhedor do Seu Tratamento de Beleza</a></h3>
-              <p>No nosso espaço, o Cantinho do Café foi pensado para transformar sua experiência em um momento completo
-                de bem-estar.</p>
-            </div>
           </div>
         </div>
-        <div class="col-md-4 d-flex ftco-animate">
-          <div class="blog-entry justify-content-end">
-            <a href="blog-single.html" class="block-20" style="background-image: url('images/image_5.jpg');">
+        
+        <div class="col-md-5">
+          <div class="contact-card">
+            <i class="ion-calendar contact-icon" style="color: #6f42c1;"></i>
+            <h2>Agendamento Online</h2>
+            <p>Agende seu horário diretamente pelo nosso sistema.</p>
+            <a href="SEU_LINK_DE_AGENDAMENTO_AQUI" class="btn-contact btn-agendamento">
+              Agendar Horário
             </a>
-            <div class="text p-4 float-right d-block">
-              <div class="d-flex align-items-center pt-2 mb-4">
-              </div>
-              <h3 class="heading mt-2"><a href="#"> Conforto que Transforma a Experiência</a></h3>
-              <p>No nosso salão, o ar-condicionado é muito mais que um detalhe – é parte essencial do seu conforto e dos
-                resultados dos tratamentos.</p>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4 d-flex ftco-animate">
-          <div class="blog-entry">
-            <a href="blog-single.html" class="block-20" style="background-image: url('images/image_6.jpg');">
-            </a>
-            <div class="text p-4 float-right d-block">
-              <div class="d-flex align-items-center pt-2 mb-4">
-              </div>
-              <h3 class="heading mt-2"><a href="#">Is wellness the new luxury</a></h3>
-              <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="row mt-5">
-        <div class="col text-center">
-          <div class="block-27">
-            <ul>
-              <li><a href="#">&lt;</a></li>
-              <li class="active"><span>1</span></li>
-              <li><a href="#">&gt;</a></li>
-            </ul>
           </div>
         </div>
       </div>
     </div>
   </section>
-  <br>
   <style>
     .bg-cinza {
       background-color: #999999;
@@ -135,19 +139,23 @@
       /* Adiciona espaçamento vertical */
     }
   </style>
+  <!-- Mapa do Google (MANTIDO COMO SOLICITADO) -->
+  <div class="container">
+    <div id="map"></div>
+  </div>
 
+  <!-- Rodapé -->
   <footer class="ftco-section bg-cinza">
     <div class="container">
       <div class="row d-flex">
         <div class="col-md">
           <div class="ftco-footer-widget mb-4">
             <h2 class="ftco-heading-2">Endereço</h2>
-            <p>Avenida Cândido portinari, 890
-              CEP: 06537001
+            <p>Avenida Cândido portinari, 890<br>
+              CEP: 06537001<br>
               Último andar, sala 22</p>
             <ul class="ftco-footer-social list-unstyled float-lft mt-3">
-              <li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a></li>
-              <li class="ftco-animate"><a href="#"><span class="icon-instagram"></span></a></li>
+              <li class="ftco-animate"><a href="https://www.instagram.com/bec.lashes/"><span class="icon-instagram"></span></a></li>
             </ul>
           </div>
         </div>
@@ -155,41 +163,28 @@
           <div class="ftco-footer-widget mb-4">
             <h2 class="ftco-heading-2">Links Úteis</h2>
             <ul class="list-unstyled">
-              <li><a href="#">Início</a></li>
-              <li><a href="#">Procedimentos</a></li>
-              <li><a href="#">Cursos</a></li>
-              <li><a href="#">Time</a></li>
-              <li><a href="#">Salão</a></li>
-              <li><a href="#">Contact</a></li>
+              <li><a href="index.html">Início</a></li>
+              <li><a href="about.html">Procedimentos</a></li>
+              <li><a href="treatments.html">Cursos</a></li>
+              <li><a href="specialists.html">Time</a></li>
+              <li><a href="blog.html">Salão</a></li>
+              <li><a href="contact.html">Contato</a></li>
             </ul>
           </div>
-        </div>
-        <div class="col-md">
         </div>
       </div>
       <div class="row">
         <div class="col-md-12 text-center">
           <p class="mb-0">
-            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
             SolutionsTech IO | &copy;
-            <script>
-              document.write(new Date().getFullYear());
-            </script> | Desenvolvido por Giovane Thomazin <i class="icon-heart" aria-hidden="true"></i> by <a href=""
-              target="_blank">de Distribuído por ThemeWagon</a>
-            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+            <script>document.write(new Date().getFullYear());</script> | Desenvolvido por Giovane Thomazin
           </p>
         </div>
       </div>
     </div>
   </footer>
-  <!-- loader -->
-  <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px">
-      <circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee" />
-      <circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10"
-        stroke="#F96D00" />
-    </svg></div>
 
-
+  <!-- Scripts originais mantidos conforme solicitado -->
   <script src="js/jquery.min.js"></script>
   <script src="js/jquery-migrate-3.0.1.min.js"></script>
   <script src="js/popper.min.js"></script>
@@ -204,11 +199,26 @@
   <script src="js/bootstrap-datepicker.js"></script>
   <script src="js/jquery.timepicker.min.js"></script>
   <script src="js/scrollax.min.js"></script>
-  <script
-    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
   <script src="js/google-map.js"></script>
   <script src="js/main.js"></script>
 
+  <!-- Script para o mapa -->
+  <script>
+    function initMap() {
+      const location = { lat: -23.550520, lng: -46.633308 }; // Substitua pelas suas coordenadas
+      const map = new google.maps.Map(document.getElementById("map"), {
+        zoom: 15,
+        center: location,
+      });
+      new google.maps.Marker({
+        position: location,
+        map: map,
+        title: "Bec Lashes",
+      });
+    }
+    google.maps.event.addDomListener(window, 'load', initMap);
+  </script>
 </body>
 
 </html>

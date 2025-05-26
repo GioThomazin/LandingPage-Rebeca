@@ -5397,7 +5397,7 @@ button.bg-danger:focus {
   background-color: #bd2130 !important; }
 
 .bg-light {
-  background-color: #f8f9fa !important; }
+  background-color: #7f797914  !important; }
 
 a.bg-light:hover, a.bg-light:focus,
 button.bg-light:hover,
@@ -8204,12 +8204,12 @@ h1, h2, h3, h4, h5,
     padding-left: 20px;
     padding-right: 20px;
     font-weight: 600;
-    color: #fff;
+    color: #000;
     text-transform: uppercase;
     letter-spacing: 3px;
     opacity: 1 !important; }
     .ftco-navbar-light .navbar-nav > .nav-item > .nav-link:hover {
-      color: #000; }
+      color: #d39e00; }
     @media (max-width: 991.98px) {
       .ftco-navbar-light .navbar-nav > .nav-item > .nav-link {
         padding-left: 0;
@@ -8481,7 +8481,7 @@ h1, h2, h3, h4, h5,
     opacity: 1; } }
 
 .bg-light {
-  background: #fafafa !important; }
+  background: #999999 !important; }
 
 .bg-white {
   background: #fff !important; }
@@ -8954,7 +8954,7 @@ textarea.form-control {
 .ftco-footer {
   font-size: 16px;
   padding: 6em 0;
-  border-top: 1px solid rgba(0, 0, 0, 0.05); }
+  border-top: 1px solid #000; }
   .ftco-footer .ftco-footer-logo {
     text-transform: uppercase;
     letter-spacing: .1em; }
@@ -8967,13 +8967,13 @@ textarea.form-control {
   .ftco-footer .ftco-footer-widget ul li a span {
     color: #000; }
   .ftco-footer .ftco-footer-widget .btn-primary {
-    background: #fff !important;
-    border: 2px solid #fff !important; }
+    background: #000 !important;
+    border: 2px solid #000 !important; }
     .ftco-footer .ftco-footer-widget .btn-primary:hover {
-      background: #fff;
+      background: #000;
       border: 2px solid #fff !important; }
   .ftco-footer a {
-    color: #000; }
+    color: #fff; }
     .ftco-footer a:hover {
       color: #000; }
   .ftco-footer .ftco-heading-2 {
@@ -8996,7 +8996,7 @@ textarea.form-control {
     background: #d9bf77;
     border-radius: 50%;
     position: relative;
-    color: #d9bf77 !important; }
+    color: #000 !important; }
     .ftco-footer-social li a span {
       position: absolute;
       font-size: 20px;
@@ -9005,9 +9005,9 @@ textarea.form-control {
       -webkit-transform: translate(-50%, -50%);
       -ms-transform: translate(-50%, -50%);
       transform: translate(-50%, -50%);
-      color: #fff !important; }
+      color: #000 !important; }
     .ftco-footer-social li a:hover {
-      color: #fff; }
+      color: #000; }
 
 #map {
   width: 100%; }
