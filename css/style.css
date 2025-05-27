@@ -8481,7 +8481,7 @@ h1, h2, h3, h4, h5,
     opacity: 1; } }
 
 .bg-light {
-  background: #999999 !important; }
+  background: #fafafa  !important; }
 
 .bg-white {
   background: #fff !important; }
@@ -8973,7 +8973,7 @@ textarea.form-control {
       background: #000;
       border: 2px solid #fff !important; }
   .ftco-footer a {
-    color: #fff; }
+    color: #d9bf77; }
     .ftco-footer a:hover {
       color: #000; }
   .ftco-footer .ftco-heading-2 {

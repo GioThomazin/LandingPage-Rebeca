@@ -1,33 +1,136 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
-  <title>Energen - Free Bootstrap 4 Template by Colorlib</title>
+  <title>Bec Lashes - Nosso Time</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&display=swap" rel="stylesheet">
-
   <link href="https://fonts.googleapis.com/css?family=Prata&display=swap" rel="stylesheet">
 
   <link rel="stylesheet" href="css/open-iconic-bootstrap.min.css">
   <link rel="stylesheet" href="css/animate.css">
-
   <link rel="stylesheet" href="css/owl.carousel.min.css">
   <link rel="stylesheet" href="css/owl.theme.default.min.css">
   <link rel="stylesheet" href="css/magnific-popup.css">
-
   <link rel="stylesheet" href="css/aos.css">
-
   <link rel="stylesheet" href="css/ionicons.min.css">
-
   <link rel="stylesheet" href="css/bootstrap-datepicker.css">
   <link rel="stylesheet" href="css/jquery.timepicker.css">
-
-
   <link rel="stylesheet" href="css/flaticon.css">
   <link rel="stylesheet" href="css/icomoon.css">
   <link rel="stylesheet" href="css/style.css">
+  
+<style>
+  /* Estilo para o membro da equipe */
+  .team-member {
+    display: flex;
+    flex-direction: row;
+    align-items: stretch; /* Alterado para esticar igualmente */
+    margin-bottom: 50px;
+    background: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  }
+  
+  /* Estilo para desktop */
+  .member-img {
+    flex: 0 0 45%; /* Aumentei um pouco a proporção */
+    min-height: 450px; /* Altura mínima maior */
+    background-size: cover;
+    background-position: center 25%; /* Posicionamento melhorado */
+    background-repeat: no-repeat;
+  }
+  
+  .member-info {
+    flex: 1;
+    padding: 40px; /* Padding maior para desktop */
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Centraliza o conteúdo verticalmente */
+  }
+  
+  /* Ajustes para tablets */
+  @media (max-width: 992px) {
+    .member-img {
+      flex: 0 0 40%;
+      min-height: 400px;
+    }
+    
+    .member-info {
+      padding: 30px;
+    }
+  }
+  
+  /* Ajustes específicos para mobile */
+  @media (max-width: 768px) {
+    .team-member {
+      flex-direction: column;
+    }
+    
+    .member-img {
+      flex: 0 0 350px;
+      width: 100%;
+      min-height: 350px;
+      background-position: center 20%; /* Foco no rosto */
+    }
+    
+    .member-info {
+      padding: 25px;
+    }
+  }
+
+  /* Ajustes para telas muito pequenas */
+  @media (max-width: 480px) {
+    .member-img {
+      min-height: 300px;
+      flex: 0 0 300px;
+    }
+    
+    .member-info {
+      padding: 20px;
+    }
+  }
+
+  /* Estilos para o texto */
+  .member-info h3 {
+    color: #333;
+    margin-bottom: 15px;
+    font-size: 1.8rem;
+    font-weight: 600;
+  }
+  
+  .member-info span.subheading {
+    color: #888;
+    font-size: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    display: block;
+    margin-bottom: 20px;
+    font-weight: 500;
+  }
+  
+  .member-info p {
+    color: #666;
+    line-height: 1.8;
+    margin-bottom: 20px;
+    font-size: 1.05rem;
+  }
+  
+  /* Ajustes de responsividade para texto */
+  @media (max-width: 768px) {
+    .member-info h3 {
+      font-size: 1.5rem;
+    }
+    
+    .member-info p {
+      font-size: 1rem;
+      line-height: 1.6;
+    }
+  }
+</style>
 </head>
 
 <body>
@@ -52,66 +155,36 @@
   </nav>
   <!-- END nav -->
 
-  <section class="hero-wrap hero-wrap-2" style="background-image: url('images/bg_2.jpg');"
-    data-stellar-background-ratio="0.5">
-    <div class="overlay"></div>
+ <section class="ftco-section">
     <div class="container">
-      <div class="row no-gutters slider-text js-fullheight align-items-center justify-content-center">
-        <div class="col-md-9 ftco-animate text-center">
-          <h1 class="mb-3 bread">Time</h1>
-          <p class="breadcrumbs"><span class="mr-2"><a href="index.html"></a></span> <span>Bec Lashes</span></p>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section class="ftco-section bg-cinza">
-    <div class="container">
-      <div class="row justify-content-center mb-5">
+      <div class="row justify-content-center mb-2">
         <div class="col-md-12 heading-section text-center ftco-animate">
-          <h3 class="subheading">Nosso</h3>
-          <h2 class="mb-1">Time</h2>
+          <h3 class="subheading">Conheça</h3>
+          <h2 class="mb-1">Nosso Time</h2>
         </div>
       </div>
-      <div class="row">
-        <div class="col-lg-3 d-flex">
-          <div class="coach align-items-stretch">
-            <div class="img" style="background-image: url(images/trainer-1.jpeg);"></div>
-            <div class="text bg-white p-4 ftco-animate">
-              <span class="subheading">Founder & CEO</span>
-              <h3><a href="#">Rebeca Caffaro</a></h3>
-              <p>Olá, me chamo Rebeca e atuo na área da beleza há 7 anos, com especialização nas técnicas de extensão de
-                cílios e design de sobrancelhas.
-                Ao longo desses anos, me dediquei intensamente ao aperfeiçoamento profissional. Com essa bagagem, hoje
-                tenho o privilégio de
-                compartilhar meu conhecimento como instrutora de cursos de Extensão de Cílios e Sobrancelhas — tanto
-                para iniciantes quanto para quem já atua e deseja se aprimorar.
-                Investir em um curso nessa área é muito mais do que aprender uma nova técnica — é abrir portas para uma
-                carreira promissora, conquistar autonomia financeira e transformar vidas com seu trabalho. Será um
-                prazer te acompanhar nessa jornada!
-              </p>
-              <ul class="ftco-social-media d-flex mt-4">
-                <li class="ftco-animate"><a href="https://www.instagram.com/bec.lashes/" class="mr-2 d-flex justify-content-center align-items-center"><span
-                      class="icon-instagram"></span></a></li>
-              </ul>
-              <p></p>
-            </div>
-          </div>
+      
+      <div class="team-member ftco-animate">
+        <div class="member-img" style="background-image: url(images/trainer-1.jpeg);"></div>
+        <div class="member-info">
+          <span class="subheading">Fundadora & CEO</span>
+          <h3>Rebeca Caffaro</h3>
+          <p>Olá, me chamo Rebeca e atuo na área da beleza há 7 anos, com especialização nas técnicas de extensão de cílios e design de sobrancelhas.</p>
+          <p>Ao longo desses anos, me dediquei intensamente ao aperfeiçoamento profissional. Com essa bagagem, hoje tenho o privilégio de compartilhar meu conhecimento como instrutora de cursos de Extensão de Cílios e Sobrancelhas — tanto para iniciantes quanto para quem já atua e deseja se aprimorar.</p>
+          <p>Investir em um curso nessa área é muito mais do que aprender uma nova técnica — é abrir portas para uma carreira promissora, conquistar autonomia financeira e transformar vidas com seu trabalho. Será um prazer te acompanhar nessa jornada!</p>
+          <ul class="ftco-social-media d-flex mt-4">
+            <li class="ftco-animate">
+              <a href="https://www.instagram.com/bec.lashes/" class="mr-2 d-flex justify-content-center align-items-center">
+                <span class="icon-instagram"></span>
+              </a>
+            </li>
+          </ul>
         </div>
       </div>
     </div>
-  </section>
-  <br>
-  <style>
-    .bg-cinza {
-      background-color: #999999;
-      /* Cinza claro padrão */
-      padding: 4rem 0;
-      /* Adiciona espaçamento vertical */
+</section>
 
-    }
-  </style>
-  <footer class="ftco-section bg-cinza">
+ <footer class="ftco-section ftco-section-services bg-light">
     <div class="container">
       <div class="row d-flex">
         <div class="col-md">
@@ -157,14 +230,11 @@
       </div>
     </div>
   </footer>
-
   <!-- loader -->
   <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px">
       <circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee" />
-      <circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10"
-        stroke="#F96D00" />
+      <circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00" />
     </svg></div>
-
 
   <script src="js/jquery.min.js"></script>
   <script src="js/jquery-migrate-3.0.1.min.js"></script>
@@ -180,8 +250,7 @@
   <script src="js/bootstrap-datepicker.js"></script>
   <script src="js/jquery.timepicker.min.js"></script>
   <script src="js/scrollax.min.js"></script>
-  <script
-    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
   <script src="js/google-map.js"></script>
   <script src="js/main.js"></script>
 
